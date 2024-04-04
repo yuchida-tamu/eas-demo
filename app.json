@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yuchida.example"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "65ce8a36-3b06-4f5d-9f25-5a77680c767a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/65ce8a36-3b06-4f5d-9f25-5a77680c767a"
     }
   }
 }
